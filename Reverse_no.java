@@ -3,7 +3,7 @@ class rev
 {
        public static void main(String[] args)
        {
-           int d,n,sum=0;
+           int d,n;
            Scanner s=new Scanner(System.in);
           System.out.print("Enter Number : ");
           n=s.nextInt();
@@ -14,5 +14,6 @@ class rev
                    System.out.print(d);
                   n=n/10;
             }
+            s.close();
        }
 }

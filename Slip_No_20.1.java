@@ -11,7 +11,7 @@ class Demo extends Frame implements ActionListener
         setVisible(true);
         setTitle("TYBBACA");
         setBackground(Color.red);
-        setLayout(new GridLayout(10,10));
+        setLayout(new FlowLayout());
         setSize(1000,1000);
 
         b1=new Button("Close");

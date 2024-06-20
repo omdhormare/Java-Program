@@ -1,16 +1,21 @@
 import java.util.*;
-class sum
+
+class Sum 
 {
-        public static void main(String[] args)
-            {
-                      int sum=0,n,i;
-                      Scanner s=new Scanner(System.in);
-                      System.out.print("Enter Number : " );
-                      n=s.nextInt();
-                     for(i=1;i<=n;i++)
-                   {
-                           sum=sum+i;
-                   }
-                 System.out.println("Sum Of Number : "+sum);
-            }
+    public static void main(String[] args) 
+    {
+        int sum = 0, n;
+        Scanner s = new Scanner(System.in);
+        
+        System.out.print("Enter Number: ");
+        n = s.nextInt();
+        
+        for (int i = 1; i <= n; i++) 
+        {
+            sum += i;
+        }
+        
+        System.out.println("Sum of Numbers: " + sum);
+        s.close();
+    }
 }

@@ -3,7 +3,7 @@ class palindrom
 {
          public static void main(String[] argc)
            {
-                      int i,n,sum=0,n1,d;
+                      int n,sum=0,n1,d;
                       Scanner s=new Scanner(System.in);
                       System.out.print("Enter Number : ");
                      n=s.nextInt();
@@ -18,5 +18,6 @@ class palindrom
                       System.out.print("Palindrom Number....");
                   else
                        System.out.print("Not Palindrom......");
+                  s.close();
            }
 }

@@ -55,7 +55,7 @@ class Demo
     }
     void sum_of_digit(int n)
     {
-        int n1=n,sum=0;;
+        int sum=0;;
         while(n>0)
         {
             d=n%10;
